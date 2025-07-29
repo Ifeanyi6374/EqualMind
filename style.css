@@ -1,0 +1,228 @@
+/*text*/
+  h1{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #202c59ff;
+  }
+  h2{
+    font-family: Candara, sans-serif; 
+    text-align: center;
+    color: #202c59ff;
+  }
+  h3{
+    font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Mono", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Consolas", "Courier New", monospace;
+  }
+  p{
+    font-family: Arial Narrow, Arial, sans-serif;
+    text-align: left;
+    color: #202c59ff;
+  }
+  .intro-text{
+    text-align: left;
+  }
+  .SCH{
+    text-align: center;
+  }
+  #content-title{
+    color: #74d3aeff;
+  }
+  .genText{
+    color: #74d3aeff;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+  }
+  #result{
+    text-decoration: overline underline dotted #cc5500ff 2px;
+  }
+  .voltext{
+    color: #74d3aeff;
+    text-align: center;
+  }
+
+  #fact{
+    text-align: center;
+    margin: auto;
+    padding: 0 1em 0 1em;
+  }
+  .yap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #age{
+    color: #cc5500ff;
+    background-color: #74d3aeff;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+  }
+/*images*/
+  img{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 1em;
+  }
+  #logo{
+    max-width: 50px;
+    max-height: 50px;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  }
+  #logo2{
+    max-width: 50%;
+    max-height: 50%;
+  }
+/*layout*/
+  #content{
+    background-color: #202c59ff;
+    color: #74d3aeff;
+    padding-top: 5em;
+  }
+  #intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right{
+    display: inline;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin: 1em;
+  }
+
+  .desc{
+    text-align: center;
+  }
+  .center{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+/*colors*/
+  body{
+    background-color:#f0c987ff;
+    margin: 0;
+  }
+/*responsiveness*/
+  .flex-items{
+    max-width: 80%;
+    max-height: 80%;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    flex-basis: 100%;
+    margin: 1%;
+  }
+  #flex-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+  }
+  @media screen and (max-width: 850px){
+    #flex-container{
+      flex-wrap: wrap;
+    }
+    .flex-items{
+      max-width: 80%;
+      max-height: 80%;
+      padding-right: 1.5em;
+      padding-left: 1.5em;
+      flex-basis: 100%;
+      margin: 1%;
+    }
+
+  }
+/*links and buttons*/
+  .navEl a{
+    color: #cc5500ff;
+    text-decoration: none;
+    font-family: Arial Narrow, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navEl a:hover{
+    background-color: #f0c987ff;
+    color: #202c59ff; 
+    padding: 3em 1em 2em 1em;
+  }
+  button{
+    display: block;
+    color: #cc5500ff;
+    background-color: #74d3aeff;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: #f0c987ff;
+    color: #202c59ff;
+  }
+  button a{
+    color: #cc5500ff;
+    text-decoration: none;
+    font-family: Arial Narrow, Arial, sans-serif;
+  }
+  button a:hover{
+    color: #202c59ff;
+  }
+  #generator{
+    margin: 1em;
+    text-align: center;
+  }
+/*features*/
+  #factGenerator{
+    background-color: #202c59ff;
+    color: #74d3aeff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 3em 0;  
+  }
+
+
+
+  #volunteer{
+    background-color: #202c59ff;
+    color: #74d3aeff;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    max-height: 50%;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+
+  }
+/*nav bar*/
+  nav{
+    padding: 0;
+    margin: 0 ;
+    text-align: right;
+    
+  }
+  #navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1em;
+    margin: 0;
+    background-color:  #202c59ff;
+    overflow: hidden;
+  }
+  .navEl{
+    display: inline;
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
+  }
